@@ -27,7 +27,7 @@ int main(){
         }
     }
 
-    cout << " a+b =>"<< endl;
+    cout << " \n a+b =>"<< endl;
     for(i=0; i<m; i++) 
     {
         for (j=0; j<m; j++) 
