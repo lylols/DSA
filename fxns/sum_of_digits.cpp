@@ -18,5 +18,5 @@ int main()
     }
 
     cout << "\nSum of all digits of the number " << number << "  = "<< sum;
-
+    return 0;
 }
