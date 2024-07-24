@@ -35,7 +35,7 @@ int main() {
     vector <int> v3(v1);
      cout << "Elements in v3: ";
      for (int i : v3) {
-        cout << i << " ";
+        cout << i << " " <<endl;
     }
 
     //Using ITERATORS
@@ -43,7 +43,5 @@ int main() {
     it++;
     cout << "2nd element in v using iterator: " << *(it) << endl;
     // 2 as added by v.emplace_back(2);
-
-    return 0;
 
 }
