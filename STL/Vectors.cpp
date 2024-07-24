@@ -42,6 +42,7 @@ int main() {
     vector<int> :: iterator it = v.begin();
     it++;
     cout << "2nd element in v using iterator: " << *(it) << endl;
+    // 2 as added by v.emplace_back(2);
 
     return 0;
 
