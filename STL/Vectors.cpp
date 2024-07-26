@@ -35,9 +35,10 @@ int main() {
     vector <int> v3(v1);
      cout << "Elements in v3: ";
      for (int i : v3) {
-        cout << i << " " <<endl;
+        cout << i << " " ;
     }
-
+    cout << endl;
+    
     //Using ITERATORS
     vector<int> :: iterator it = v.begin();
     it++;
