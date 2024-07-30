@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int arr[6] = {2,4,1,3,7};
+    int arr[5] = {2,4,1,3,7};
 
     //defining priority queue
     priority_queue<int> pq;
@@ -26,5 +26,16 @@ int main() {
         cout << pq.top() << ' ';
         pq.pop();
     }
+    cout << endl;
+    //Minimum priority queue
+    priority_queue<int, vector<int>, greater<int>> minpq;
+    for (int i =0; i<6; i++) {
+        minpq.push(arr[i]);
+    } 
+    while (!minpq.empty()) {
+        cout << minpq.top() << ' ';
+        minpq.pop();
+    }
+
     return 0;
 }
