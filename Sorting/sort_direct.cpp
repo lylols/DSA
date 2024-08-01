@@ -16,7 +16,9 @@ int main() {
 
     //Sorting an array 
     int arr[] = {2,5,1,5,3,7};
-    sort(arr,arr +6);
+    //To sort in desc order
+    sort(arr, arr +6, greater<int>());
+    //sort(arr,arr +6);
         cout << "Sorted array: ";
     for (int i : arr) {
         cout << i << " ";
