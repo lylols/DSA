@@ -16,9 +16,10 @@ int main(){
                 fc.push_back(n/i);
             }
         }
-    }
-    sort(fc.begin(),fc.end());
+    } //O(sqrt(n))
+    sort(fc.begin(),fc.end()); 
+    //O(no. of factors)*log(n.o.f.) ie e/factor * ech iteration
 
-    for(auto it: fc) cout << it <<" ";
+    for(auto it: fc) cout << it <<" "; //O(n.o.f)
     return 0;
 }
