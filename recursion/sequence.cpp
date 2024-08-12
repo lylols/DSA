@@ -14,7 +14,7 @@ void printf(int ind, vector <int> &ds, int arr[], int n){
     ds.push_back(arr[ind]);
     printf(ind+1, ds, arr,n);
 
-    //Don't pick case
+    //Don't pick case or remove
     ds.pop_back();
     printf(ind+1, ds, arr,n);
 }
