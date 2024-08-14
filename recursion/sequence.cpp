@@ -9,6 +9,9 @@ void printf(int ind, vector <int> &ds, int arr[], int n){
         cout << endl;
         return;
     }
+    if (ind==0){
+        cout << "{}"<< endl;
+    }
 
     //Pick the particular index into subsequence
     ds.push_back(arr[ind]);
