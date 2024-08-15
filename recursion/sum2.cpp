@@ -15,7 +15,7 @@ void prints(int ind, vector<int> &ds, int s, int sum, int arr[], int n){
     ds.pop_back();
     s -= arr[ind];
 
-    //not pick cond
+    //not pick condition
     prints(ind+1, ds, s, sum, arr, n );
 }
 
