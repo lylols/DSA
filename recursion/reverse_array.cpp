@@ -19,4 +19,4 @@ int main() {
     return 0;
 }
 
-//O(n/2)
+//TC- O(n/2)
